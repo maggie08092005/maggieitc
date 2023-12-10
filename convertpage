@@ -1,0 +1,24 @@
+     <body>
+
+        <h1>Web Components Conversion</h1>
+        <br><br>
+        <label for="fname">Value:</label>
+        <input id="fname" type="number">
+        <button onclick="convertpage()">Convert</button>
+       <br><br>
+       <h1 id="hellomsg"></h1>
+    <br>
+        <a href="index.html">Back to Home Page</a>
+<script>
+    function convertpage()
+    {
+        var uname;
+
+        uname =  document.getElementById("fname").value
+
+        document.getElementById("hellomsg").innerHTML
+        ='Hello '+uname;
+    }
+</script>
+    </body>
+</html>
